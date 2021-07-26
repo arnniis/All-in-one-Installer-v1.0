@@ -1,0 +1,67 @@
+import webbrowser
+
+while True:
+    
+    InstallAll = input('Type 1 to list and download all programs, type 0 to download programs individually, or type exit to exit: ')
+    if InstallAll == 'exit':
+        break
+    if InstallAll == '1':
+        print('Google Chrome (Ver. 92.0.4515.107) (1.2 MB)')
+        print('Python (Ver. 3.9.6) (24.8 MB)')
+        print('Epic Games (Ver. 12.1.7) (54.2 MB)')
+        print('Steam (Ver. 2021.16.7) (1.7 MB)')
+        print('VLC Media Player (Ver. 3.0.16) (38 MB)')
+        print('7-zip x64 (Ver. 19.00) (1.4 MB) and the x32 version (1.1 MB) (2.5 MB)')
+        print('Storage space needed: 122.4 MB')
+        a = input('Type 1 to continue installation, or 0 to download individually: ')
+        if a == '1':
+            webbrowser.open('https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B96054C4E-0DCA-C025-AF2C-4E81D9FB034A%7D%26lang%3Den%26browser%3D4%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable-statsdef_1%26installdataindex%3Dempty/update2/installers/ChromeSetup.exe')
+            webbrowser.open('https://www.python.org/ftp/python/3.9.6/python-3.9.6-amd64.exe')
+            webbrowser.open('https://epicgames-download1.akamaized.net/Builds/UnrealEngineLauncher/Installers/Win32/EpicInstaller-12.1.7.msi?launcherfilename=EpicInstaller-12.1.7-4d54f068f1da408b8c8ba582388303f2.msi')
+            webbrowser.open('https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe')
+            webbrowser.open('https://mirrors.neterra.net/vlc/vlc/3.0.16/win32/vlc-3.0.16-win32.exe')
+            webbrowser.open('https://raw.githubusercontent.com/ip7z/a/main/7z1900-x64.exe')
+            webbrowser.open('https://raw.githubusercontent.com/ip7z/a/main/7z1900.exe')
+
+    GoogleInstall = input('Type 1 to install Google Chrome (Ver. 92.0.4515.107) (1.2 MB), type 0 to continue: ')
+    if GoogleInstall == '1':
+        webbrowser.open('https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B96054C4E-0DCA-C025-AF2C-4E81D9FB034A%7D%26lang%3Den%26browser%3D4%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable-statsdef_1%26installdataindex%3Dempty/update2/installers/ChromeSetup.exe')
+
+    PythonInstall = input('Type 1 to install Python (Ver. 3.9.6) (24.8 MB), type 0 to continue: ')
+    if PythonInstall == '1':
+        webbrowser.open('https://www.python.org/ftp/python/3.9.6/python-3.9.6-amd64.exe')
+
+    EpicGamesInstall = input('Type 1 to install Epic Games (Ver. 12.1.7) (54.2 MB), type 0 to continue: ')
+    if EpicGamesInstall == '1':
+        webbrowser.open('https://epicgames-download1.akamaized.net/Builds/UnrealEngineLauncher/Installers/Win32/EpicInstaller-12.1.7.msi?launcherfilename=EpicInstaller-12.1.7-4d54f068f1da408b8c8ba582388303f2.msi')
+
+    SteamInstall = input('Type 1 to install Steam (Ver. 2021.16.7) (1.7 MB), type 0 to continue: ')  
+    if SteamInstall == '1':
+        webbrowser.open('https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe')
+    
+    VlcInstall = input('Type 1 to install VLC Media Player (Ver. 3.0.16) (38 MB), type 0 to continue: ')
+    if VlcInstall == '1':
+        webbrowser.open('https://mirrors.neterra.net/vlc/vlc/3.0.16/win32/vlc-3.0.16-win32.exe')
+
+    ZipInstallx64 = input('Type 1 to install 7-zip x64 (Ver. 19.00) (1.4 MB), type 0 to continue: ')
+    if ZipInstallx64 == '1':
+        webbrowser.open('https://raw.githubusercontent.com/ip7z/a/main/7z1900-x64.exe')
+
+    ZipInstallx32 = input('Type 1 to install 7-zip x32 (Ver. 19.00) (1.1 MB), type 0 to continue: ')
+    if ZipInstallx32 == '1':
+        webbrowser.open('https://raw.githubusercontent.com/ip7z/a/main/7z1900.exe')
+
+    
+
+
+
+    
+
+                            
+                                    
+                    
+
+                                
+                            
+                                
+        
